@@ -1,8 +1,7 @@
 {
-      "name": "gemini-image-generator",
-        "version": "1.0.0",
-          "description": "使用 Gemini 2.0 Flash Experimental 生成图像",
-            "main": "index.js",
-              "openapi": "openapi.json"
-              }
+  "name": "gemini-image-generator",
+  "version": "1.0.0",
+  "description": "使用 Gemini 2.0 Flash Experimental 生成图像",
+  "main": "index.js",
+  "openapi": "openapi.json"
 }
