@@ -1,5 +1,3 @@
-// index.js
-
 async function generateImage(prompt) {
   const apiKey = process.env.GOOGLE_API_KEY; // 从环境变量中获取密钥
   // 尝试备用模型名称，如果 gemini-2.0-flash-exp 不行，可以试试这个
