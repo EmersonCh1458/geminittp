@@ -1,5 +1,5 @@
 async function generateImage(prompt) {
-      const apiKey = process.env.GEMINI_API_KEY; // 从环境变量中获取密钥
+      const apiKey = process.env.GOOGLE_API_KEY; // 从环境变量中获取密钥
         const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key=${apiKey}`;
           const headers = {
               'Content-Type': 'application/json',
