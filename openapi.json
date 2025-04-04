@@ -20,6 +20,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
+                "description": "API 响应的原始结构 (用于调试)"
                 "properties": {
                   "contents": {
                     "type": "array",
